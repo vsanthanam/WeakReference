@@ -11,7 +11,7 @@ navorder: 0
 An existential weak reference. Use this wrapper class to pass around weakly-referenced instances of an object.
 
 ```swift
-import Weak
+import WeakReference
 
 var obj: MyObj? = .init( ... )
 let weakReference = weak(obj!)
@@ -25,11 +25,11 @@ assert(weakReference.obj == nil)
 
 # Setup
 
-Weak is distributed through the Swift Package Manager. Add the following to your dependencies in your `package.swift` file:
+WeakReference is distributed through the Swift Package Manager. Add the following to your dependencies in your `package.swift` file:
 
 ```
 dependencies: [
-    .package(url: "https://github.com/vsanthanam/weak", from: "0.0.0")
+    .package(url: "https://github.com/vsanthanam/weakreference", from: "0.0.0")
 ],
 ```
 
@@ -37,4 +37,4 @@ Other distribution mechanisms will be supported shortly.
 
 # Documentation
 
-Take a look at the [hosted documentation](https://weak.tools/docc/documentation/weak)
+Take a look at the [hosted documentation](https://weak.tools/docc/documentation/weakreference)

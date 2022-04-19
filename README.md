@@ -1,10 +1,10 @@
-# Weak
+# WeakReference
 
 An existential weak reference.
 Use this wrapper class to pass around weakly-referenced instances of an object.
 
 ```
-import Weak
+import WeakReference
 
 var obj: MyObj? = .init( ... )
 let weakReference = weak(obj!)
