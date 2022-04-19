@@ -1,0 +1,53 @@
+remote_theme: vsanthanam/gh-proj-theme
+# show_downloads: true
+name: Weak
+
+project:
+    version: 0.0.1
+    download_url: https://www.github.com/vsanthanam/Weak/releases
+
+license:
+    software: MIT License
+    software_url: http://opensource.org/licenses/MIT
+
+    docs: CC BY 3.0
+    docs_url: http://creativecommons.org/licenses/by/3.0/
+
+links:
+    header:
+      - title: Documentation
+        url: https://weak.tools/docc/documentation/weak
+      - title: GitHub
+        url: https://www.github.com/vsanthanam/Weak
+    footer:
+      - title: GitHub
+        url: https://www.github.com/vsanthanam/Weak
+      - title: Issues
+        url: https://www.github.com/vsanthanam/Weak/issues?state=open
+      - title: About Me
+        url: https://www.vsanthanam.com
+
+ui:
+    header:
+        color1: "#80D0C7"
+        color2: "#13547A"
+        trianglify: true
+
+social:
+    github:
+        user: vsanthanam
+        repo: Weak
+    twitter:
+        enabled: false
+        via:
+        hash:
+        account: 
+    facebook:
+        enabled: false
+        profileUrl:
+
+# Build settings
+markdown: kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock

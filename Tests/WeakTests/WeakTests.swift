@@ -34,7 +34,7 @@ final class WeakTests: XCTestCase {
 
         var myObject: MyObject? = .init()
 
-        let weakReference = Weak<MyObject>(myObject!)
+        let weakReference = weak(myObject!)
 
         XCTAssertNotNil(weakReference.obj)
 

@@ -23,22 +23,21 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-/// ## Weak
-///
 /// An existential weak reference.
+/// 
 /// Use this wrapper class to pass around weakly-referenced instances of an object.
 ///
 /// ```
 /// var obj: MyObj? = .init( ... )
-/// let weakReference = Weak<MyObj>(obj!)
+/// let weakReference = weak(obj!)
 ///
-/// assert(weakReference != nil)
+/// assert(weakReference.obj != nil)
 ///
 /// obj = nil
 ///
-/// assert(weakReference == nil)
+/// assert(weakReference.obj == nil)
 /// ```
-public final class Weak<T: AnyObject> {
+public final class WeakReference<T: AnyObject> {
 
     /// Create a weak reference to the provided object instance
     /// - Parameter obj: An instance to weakify
@@ -48,4 +47,11 @@ public final class Weak<T: AnyObject> {
 
     /// A weak reference to the object
     public weak var obj: T?
+}
+
+/// Create a `WeakReference` from an object
+/// - Parameter obj: An instance to weakify
+/// - Returns: a `WeakReference` wrapper containing the provided object
+public func weak<T: AnyObject>(_ obj: T) -> WeakReference<T> {
+    .init(obj)
 }
