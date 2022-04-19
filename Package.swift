@@ -5,11 +5,18 @@ import PackageDescription
 
 let package = Package(
     name: "Weak",
+    platforms: [
+        .iOS(.v13),
+        .macOS(.v10_15),
+        .tvOS(.v13),
+        .watchOS(.v6)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Weak",
-            targets: ["Weak"]),
+            targets: ["Weak"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,9 +27,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "Weak",
-            dependencies: []),
+            dependencies: []
+        ),
         .testTarget(
             name: "WeakTests",
-            dependencies: ["Weak"]),
+            dependencies: ["Weak"]
+        ),
     ]
 )
