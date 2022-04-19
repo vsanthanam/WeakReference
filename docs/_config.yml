@@ -1,9 +1,9 @@
 remote_theme: vsanthanam/gh-proj-theme
 # show_downloads: true
-name: Weak
+name: WeakReference
 
 project:
-    version: 0.0.1
+    version: 0.0.2
     download_url: https://www.github.com/vsanthanam/WeakReference/releases
 
 license:
