@@ -28,7 +28,7 @@ import XCTest
 
 final class WeakTests: XCTestCase {
 
-    func testExample() throws {
+    func test() throws {
 
         class MyObject {}
 

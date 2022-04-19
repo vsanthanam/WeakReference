@@ -26,7 +26,7 @@
 /// ## Weak
 ///
 /// An existential weak reference.
-/// Use this wrapper class to pass around weak instances of an object.
+/// Use this wrapper class to pass around weakly-referenced instances of an object.
 ///
 /// ```
 /// var obj: MyObj? = .init( ... )
@@ -40,8 +40,8 @@
 /// ```
 public final class Weak<T: AnyObject> {
 
-    /// Create a weak reference to the provided reference type
-    /// - Parameter obj: An instance of the reference type to weakify
+    /// Create a weak reference to the provided object instance
+    /// - Parameter obj: An instance to weakify
     public init(_ obj: T) {
         self.obj = obj
     }
