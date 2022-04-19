@@ -4,7 +4,7 @@ name: Weak
 
 project:
     version: 0.0.1
-    download_url: https://www.github.com/vsanthanam/Weak/releases
+    download_url: https://www.github.com/vsanthanam/WeakReference/releases
 
 license:
     software: MIT License
@@ -16,14 +16,14 @@ license:
 links:
     header:
       - title: Documentation
-        url: https://weak.tools/docc/documentation/weak
+        url: https://weak.tools/docc/documentation/weakreference
       - title: GitHub
-        url: https://www.github.com/vsanthanam/Weak
+        url: https://www.github.com/vsanthanam/WeakReference
     footer:
       - title: GitHub
-        url: https://www.github.com/vsanthanam/Weak
+        url: https://www.github.com/vsanthanam/WeakReference
       - title: Issues
-        url: https://www.github.com/vsanthanam/Weak/issues?state=open
+        url: https://www.github.com/vsanthanam/WeakReference/issues?state=open
       - title: About Me
         url: https://www.vsanthanam.com
 
@@ -36,7 +36,7 @@ ui:
 social:
     github:
         user: vsanthanam
-        repo: Weak
+        repo: WeakReference
     twitter:
         enabled: false
         via:
