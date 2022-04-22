@@ -49,9 +49,9 @@ public final class WeakReference<T: AnyObject> {
     public weak var obj: T?
 }
 
-/// Create a `WeakReference` from an object
+/// Create a ``WeakReference`` from an object
 /// - Parameter obj: An instance to weakify
-/// - Returns: a `WeakReference` wrapper containing the provided object
+/// - Returns: a ``WeakReference`` wrapper containing the provided object
 public func weak<T: AnyObject>(_ obj: T) -> WeakReference<T> {
     .init(obj)
 }
