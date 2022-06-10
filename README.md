@@ -6,13 +6,6 @@
 [![Swift Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fvsanthanam%2FWeakReference%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/vsanthanam/WeakReference)
 [![Supported Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fvsanthanam%2FWeakReference%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/vsanthanam/WeakReference)
 
-<a href="https://swift.org">
-    <img src="https://img.shields.io/badge/swift-5.6-critical" />
-</a>
-<a href="https://developer.apple.com">
-    <img src="https://img.shields.io/badge/platform-iOS%2011%20%7C%20macOS%2010.13%20%7C%20tvOS%2011%20%7C%20watchOS%204-lightgrey" />
-</a>
-
 An existential weak reference.
 Use this wrapper class to pass around weakly-referenced instances of an object.
 
