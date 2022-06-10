@@ -1,14 +1,11 @@
 # WeakReference
 
-<a href="https://github.com/vsanthanam/WeakReference/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/vsanthanam/WeakReference" />
-</a>
-<a href="https://github.com/vsanthanam/WeakReference/releases">
-    <img src="https://img.shields.io/github/v/release/vsanthanam/WeakReference" />
-</a>
-<a href="https://github.com/vsanthanam/WeakReference/actions/workflows/spm-build-test">
-    <img src="https://img.shields.io/github/workflow/status/vsanthanam/WeakReference/spm-build-test" />
-</a>
+[![MIT License](https://img.shields.io/github/license/vsanthanam/WeakReference)](https://github.com/vsanthanam/WeakReference/blob/main/LICENSE)
+[![Package Releases](https://img.shields.io/github/v/release/vsanthanam/WeakReference)](https://github.com/vsanthanam/WeakReference/releases)
+[![Build Results](https://img.shields.io/github/workflow/status/vsanthanam/WeakReference/spm-build-test)](https://img.shields.io/github/workflow/status/vsanthanam/WeakReference/spm-build-test)
+[![Swift Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fvsanthanam%2FWeakReference%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/vsanthanam/WeakReference)
+[![Supported Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fvsanthanam%2FWeakReference%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/vsanthanam/WeakReference)
+
 <a href="https://swift.org">
     <img src="https://img.shields.io/badge/swift-5.6-critical" />
 </a>
