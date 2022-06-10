@@ -1,5 +1,5 @@
-// Weak
-// WeakTests.swift
+// WeakReference
+// WeakReferenceTests.swift
 //
 // MIT License
 //
@@ -23,7 +23,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-@testable import Weak
+@testable import WeakReference
 import XCTest
 
 final class WeakTests: XCTestCase {
