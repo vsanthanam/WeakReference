@@ -27,7 +27,7 @@
 ///
 /// Use this wrapper class to pass around weakly-referenced instances of an object.
 ///
-/// ```
+/// ```swift
 /// import WeakReference
 ///
 /// var obj: MyObj? = .init( ... )
