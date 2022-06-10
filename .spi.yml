@@ -1,0 +1,12 @@
+version: 1
+builder:
+  configs:
+  - platform: ios
+    scheme: WeakReference
+  - platform: macos-xcodebuild
+    scheme: WeakReference
+  - platform: tvos
+    scheme: WeakReference
+  - platform: watchos
+    scheme: WeakReference
+  - documentation_targets: [WeakReference]
