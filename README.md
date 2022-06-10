@@ -1,5 +1,21 @@
 # WeakReference
 
+<a href="https://github.com/vsanthanam/WeakReference/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/vsanthanam/WeakReference" />
+</a>
+<a href="https://github.com/vsanthanam/WeakReference/releases">
+    <img src="https://img.shields.io/github/v/release/vsanthanam/WeakReference" />
+</a>
+<a href="https://github.com/vsanthanam/WeakReference/actions/workflows/spm-build-test">
+    <img src="https://img.shields.io/github/workflow/status/vsanthanam/WeakReference/spm-build-test" />
+</a>
+<a href="https://swift.org">
+    <img src="https://img.shields.io/badge/swift-5.6-critical" />
+</a>
+<a href="https://developer.apple.com">
+    <img src="https://img.shields.io/badge/platform-iOS%2011%20%7C%20macOS%2010.13%20%7C%20tvOS%2011%20%7C%20watchOS%204-lightgrey" />
+</a>
+
 An existential weak reference.
 Use this wrapper class to pass around weakly-referenced instances of an object.
 
@@ -29,6 +45,8 @@ obj = nil
 
 assert(weakReference.obj == nil)
 ```
+
+See the [complete documentation](https://weak.tools/docs/documentation/weakreference/) for more information.
 
 ## License
 
