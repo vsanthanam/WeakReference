@@ -33,7 +33,7 @@ dependencies: [
 
 ## Usage
 
-```
+```swift
 import WeakReference
 
 var obj: MyObj? = .init( ... )
