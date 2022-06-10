@@ -6,7 +6,7 @@ if [[ "$branch" != "main" ]]; then
 else
     git branch -D gh-pages
     git checkout -b gh-pages
-    swift package --allow-writing-to-directory docs generate-documentation --target NetworkReachability --disable-indexing --transform-for-static-hosting --hosting-base-path docs --output-path docs
+    swift package --allow-writing-to-directory docs generate-documentation --target WeakReference --disable-indexing --transform-for-static-hosting --hosting-base-path docs --output-path docs
     echo "weak.tools" > CNAME
     git add .
     git commit -m 'Synchronize Hompage & Publish Documentation'
