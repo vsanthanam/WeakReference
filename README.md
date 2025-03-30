@@ -19,7 +19,7 @@ To add WeakReference as a dependency to an existing Swift package, add the follo
 dependencies: [
     .package(
         url: "https://github.com/vsanthanam/WeakReference.git",
-        from: "1.0.0"
+        from: "2.0.0"
     )
 ]
 ```
