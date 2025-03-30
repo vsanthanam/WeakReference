@@ -24,22 +24,20 @@
 // SOFTWARE.
 
 @testable import WeakReference
-import XCTest
+import Testing
 
-final class WeakTests: XCTestCase {
+@Test
+func test() throws {
 
-    func test() throws {
+    class MyObject {}
 
-        class MyObject {}
+    var myObject: MyObject? = .init()
 
-        var myObject: MyObject? = .init()
+    let weakReference = weak(myObject!)
 
-        let weakReference = weak(myObject!)
+    #expect(weakReference.obj != nil)
 
-        XCTAssertNotNil(weakReference.obj)
+    myObject = nil
 
-        myObject = nil
-
-        XCTAssertNil(weakReference.obj)
-    }
+    #expect(weakReference.obj == nil)
 }
