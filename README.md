@@ -3,8 +3,8 @@
 [![MIT License](https://img.shields.io/github/license/vsanthanam/WeakReference)](https://github.com/vsanthanam/WeakReference/blob/main/LICENSE)
 [![Package Releases](https://img.shields.io/github/v/release/vsanthanam/WeakReference)](https://github.com/vsanthanam/WeakReference/releases)
 [![Build Results](https://img.shields.io/github/workflow/status/vsanthanam/WeakReference/spm-build-test)](https://img.shields.io/github/workflow/status/vsanthanam/WeakReference/spm-build-test)
-[![Swift Version](https://img.shields.io/badge/swift-5.6-critical)](https://swift.org)
-[![Supported Platforms](https://img.shields.io/badge/platform-iOS%2011%20%7C%20macOS%2010.13%20%7C%20tvOS%2011%20%7C%20watchOS%204-lightgrey)](https://developer.apple.com)
+[![Swift Version](https://img.shields.io/badge/swift-6.0-critical)](https://swift.org)
+[![Supported Platforms](https://img.shields.io/badge/platform-iOS%2012%20%7C%20macOS%2010.14%20%7C%20tvOS%2012%20%7C%20watchOS%205-lightgrey)](https://developer.apple.com)
 
 An existential weak reference.
 Use this wrapper class to pass around weakly-referenced instances of an object.
@@ -17,14 +17,17 @@ To add WeakReference as a dependency to an existing Swift package, add the follo
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/vsanthanam/WeakReference.git", .upToNextMajor(from: "1.0.0"))
+    .package(
+        url: "https://github.com/vsanthanam/WeakReference.git",
+        from: "1.0.0"
+    )
 ]
 ```
 
 To add AnyAsyncSequence as a dependency to an Xcode Project:
 
-* Choose File → Add Packages...
-* Enter package URL https://github.com/vsanthanam/WeakReference.git and select your release and of choice.
+* Choose `File` → `Add Packages...`
+* Enter package URL `https://github.com/vsanthanam/WeakReference.git` and select your release and of choice.
 
 Other distribution mechanisms like CocoaPods or Carthage may be added in the future.
 
