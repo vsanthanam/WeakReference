@@ -3,7 +3,7 @@
 //
 // MIT License
 //
-// Copyright (c) 2021 Varun Santhanam
+// Copyright (c) 2025 Varun Santhanam
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the  Software), to deal
 //
@@ -23,23 +23,21 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-@testable import WeakReference
-import XCTest
+import Testing
+import WeakReference
 
-final class WeakTests: XCTestCase {
+@Test
+func test() throws {
 
-    func test() throws {
+    class MyObject {}
 
-        class MyObject {}
+    var myObject: MyObject? = .init()
 
-        var myObject: MyObject? = .init()
+    let weakReference = weak(myObject!)
 
-        let weakReference = weak(myObject!)
+    #expect(weakReference.obj != nil)
 
-        XCTAssertNotNil(weakReference.obj)
+    myObject = nil
 
-        myObject = nil
-
-        XCTAssertNil(weakReference.obj)
-    }
+    #expect(weakReference.obj == nil)
 }
